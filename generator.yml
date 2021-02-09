@@ -1,0 +1,10 @@
+modules:
+  cisco_netflow:
+    auth:
+      community: public
+    max_repetitions: 25
+    retries: 3
+    timeout: 10s
+    version: 2
+    walk:
+    - 1.3.6.1.4.1.9.9.387
